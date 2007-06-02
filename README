@@ -1,0 +1,93 @@
+libnotify
+------------------------------------------
+Galago Project desktop notification library
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.12-1
+  glib2-2.12.12-1
+  gtk2-x11-2.10.12-1
+  libdbus-glib_1_2-0.73-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gtk-doc-1.8-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.galago-project.org/
+
+Canonical download:
+  http://www.galago-project.org/files/releases/source/libnotify/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libnotify-0.4.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libnotify-0.4.4-X.cygport all
+
+This will create:
+  /usr/src/libnotify-0.4.4-X-src.tar.bz2
+  /usr/src/libnotify-0.4.4-X.tar.bz2
+  /usr/src/libnotify-devel-0.4.4-X.tar.bz2
+  /usr/src/libnotify-doc-0.4.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+(libnotify)
+  /usr/bin/cygnotify-1.dll
+  /usr/bin/notify-send.exe
+  /usr/share/doc/Cygwin/libnotify-0.4.4.README
+  /usr/share/doc/libnotify-0.4.4/AUTHORS
+  /usr/share/doc/libnotify-0.4.4/COPYING
+  /usr/share/doc/libnotify-0.4.4/ChangeLog
+  /usr/share/doc/libnotify-0.4.4/INSTALL
+  /usr/share/doc/libnotify-0.4.4/NEWS
+
+(libnotify-devel)
+  /usr/include/libnotify/notification.h
+  /usr/include/libnotify/notify-enum-types.h
+  /usr/include/libnotify/notify.h
+  /usr/lib/libnotify.dll.a
+  /usr/lib/libnotify.la
+  /usr/lib/pkgconfig/libnotify.pc
+
+(libnotify-doc)
+  /usr/share/gtk-doc/html/libnotify/NotifyNotification.html
+  /usr/share/gtk-doc/html/libnotify/ch01.html
+  /usr/share/gtk-doc/html/libnotify/home.png
+  /usr/share/gtk-doc/html/libnotify/index.html
+  /usr/share/gtk-doc/html/libnotify/index.sgml
+  /usr/share/gtk-doc/html/libnotify/left.png
+  /usr/share/gtk-doc/html/libnotify/libnotify-notify.html
+  /usr/share/gtk-doc/html/libnotify/libnotify.devhelp
+  /usr/share/gtk-doc/html/libnotify/libnotify.devhelp2
+  /usr/share/gtk-doc/html/libnotify/right.png
+  /usr/share/gtk-doc/html/libnotify/style.css
+  /usr/share/gtk-doc/html/libnotify/up.png
+
+------------------
+
+Port Notes:
+
+----- version 0.4.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,5 @@
+category: Gnome
+requires: cygwin glib2-devel gtk2-x11-devel libdbus-glib_1-devel
+external-source: libnotify
+sdesc: "Galago Project desktop notification library (development)"
+ldesc: "Galago Project desktop notification library"

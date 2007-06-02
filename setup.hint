@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin glib2 gtk2-x11 libdbus-glib_1_2
+sdesc: "Galago Project desktop notification library (runtime)"
+ldesc: "Galago Project desktop notification library"
