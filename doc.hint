@@ -1,5 +1,0 @@
-category: Gnome Doc
-requires: cygwin glib2-doc gtk2-x11-doc
-external-source: libnotify
-sdesc: "Galago Project desktop notification library (documentation)"
-ldesc: "Galago Project desktop notification library"
