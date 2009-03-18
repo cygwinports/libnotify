@@ -1,4 +1,3 @@
 category: Gnome
-requires: libnotify1
 sdesc: "Galago Project desktop notification library (sources)"
 ldesc: "Galago Project desktop notification library"
