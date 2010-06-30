@@ -2,7 +2,7 @@ inherit gnome2
 
 DESCRIPTION="GNOME desktop notification client library"
 HOMEPAGE="http://www.galago-project.org/"
-SRC_URI="http://www.galago-project.org/files/releases/source/${PN}/${P}.tar.bz2"
+
 PATCH_URI="0.4.4-no-undefined.patch"
 
 PKG_NAMES="${PN} ${PN}1 ${PN}-devel"
