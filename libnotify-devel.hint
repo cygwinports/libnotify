@@ -1,0 +1,5 @@
+category: Gnome
+requires: libnotify4 libglib2.0-devel libgdk_pixbuf2.0-devel
+external-source: libnotify
+sdesc: "GNOME desktop notification library (development)"
+ldesc: "GNOME desktop notification library"
