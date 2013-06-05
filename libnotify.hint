@@ -1,4 +1,0 @@
-category: Gnome
-requires: libglib2.0_0 libnotify4
-sdesc: "GNOME desktop notification utility"
-ldesc: "GNOME desktop notification library"
